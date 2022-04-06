@@ -13,7 +13,7 @@ export default class SearchBox extends Component {
 
     searchBoxSubmitHandler = (e) => {
         e.preventDefault();
-        fetch(`http://www.omdbapi.com/?s=${this.state.searchLine}&apikey=103381a1 `)
+        fetch(`http://www.omdbapi.com/?s=${this.state.searchLine}&apikey=103381a1`)
         .then(response => response.json())
         .then(data => {
             if(!data.Search) {
