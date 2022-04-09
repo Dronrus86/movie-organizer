@@ -77,7 +77,7 @@ export default class Favorites extends Component {
                     />
                     <ul className="favorites__list">
                         {this.state.movies.map((item) => {
-                            return <li key={item.imdbID}>{item.Title} ({item.Year})
+                            return <li className="favorites__list-item" key={item.imdbID}>{item.Title} ({item.Year})
                                 <span>
                                     <button 
                                     key={item.imdbID} 

@@ -15,8 +15,14 @@
 
 .favorites__list {
     margin-bottom: 24px;
-}
 
+}
+.favorites__list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
 .favorites__save {
     border: none;
     background-color: #496DDB;
@@ -30,4 +36,19 @@
     cursor: pointer;
     opacity: 0.9;
     transition: all 0.2s linear;
+}
+
+.favorites__delete{
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+   background-color: white;
+    border: solid 1px;
+
+
+}
+
+.favorites__delete:hover{
+    background-color: green;
+    color: white;
 }

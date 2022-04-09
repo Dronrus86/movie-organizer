@@ -1,4 +1,6 @@
 {
+
+  "homepage": ".",
   "name": "bootcamp-m4-starter",
   "version": "0.1.0",
   "private": true,
